@@ -844,9 +844,15 @@ letter-spacing: 0.48px;
 }
 
 .svg-chec{
+    
+}
+
+.span-label-chek:checked{
+    fill: #F4F4FD;
 
 }
-.div-chek:checked + .input-chek .span-label-chek{
+
+.input-chek:checked + .chek-label > .span-label-chek{
     background-color: #404BBF;
         border: none;
         fill: #F4F4FD;
