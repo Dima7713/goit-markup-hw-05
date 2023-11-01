@@ -750,17 +750,20 @@ letter-spacing: 0.48px;
     position: relative;
 }
 .model-input{
-    
+    border: 1px solid rgba(46, 47, 66, 0.4);
     width: 100%;
     height:40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    border-color: #4D5AE5;
-
+    
+}
+.model-input:hover{
+    border-color:#4D5AE5;
+    outline-color: transparent;
+    outline-offset: 4px;
 }
 .model-svg-one{
     position:absolute;
@@ -768,6 +771,11 @@ letter-spacing: 0.48px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.model-input:hover + .model-svg-one,
+.model-input:focus + .model-svg-one{
+    fill: #4D5AE5;
 }
 
 
@@ -832,7 +840,7 @@ letter-spacing: 0.48px;
 .svg-chec{
 
 }
-.div-chek:checked + .input-chek> .span-label-chek{
+.div-chek:checked + .input-chek .span-label-chek{
     background-color: #404BBF;
         border: none;
         fill: #F4F4FD;
