@@ -745,7 +745,6 @@ letter-spacing: 0.48px;
     color: #8e8f99;
     display: block;
    margin-bottom: 4px;
-    margin: 8px;
 
 }
 .div-model-icon{
@@ -767,6 +766,10 @@ letter-spacing: 0.48px;
     outline-color: transparent;
     outline-offset: 4px;
 }
+   
+.model-input:focus{
+    border-color:#4D5AE5;
+    }
 .model-svg-one{
     position:absolute;
     left: 16px;
@@ -777,6 +780,7 @@ letter-spacing: 0.48px;
 
 .model-input:hover + .model-svg-one,
 .model-input:focus + .model-svg-one{
+    
     fill: #4D5AE5;
 }
 
