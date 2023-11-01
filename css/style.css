@@ -768,9 +768,7 @@ letter-spacing: 0.48px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.model-input:focus + .model-svg-one:focus {
-    fill: #4D5AE5;
-}
+
 
 .div-comment{
     margin-bottom: 16px;
@@ -795,6 +793,37 @@ letter-spacing: 0.48px;
 }
 
 
+.div-chek{
+    margin-bottom: 24px;
+}
+
+.input-chek{
+
+}
+
+.chek-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+.span-label-chek{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+
+
+}
+
+.url-chek{
+    color:#4d5ae5;
+}
 
 
 
